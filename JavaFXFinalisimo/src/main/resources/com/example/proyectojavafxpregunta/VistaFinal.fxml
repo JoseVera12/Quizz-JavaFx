@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyectojavafxpregunta.Controlador2">
+   <children>
+      <ImageView fitHeight="291.0" fitWidth="515.0" layoutX="69.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://assets.asana.biz/transform/869b9377-fbc9-4824-9714-e0b54f5c1b3b/article-leadership-icebreaker-questions-team-building-2x" />
+         </image>
+      </ImageView>
+      <Text fx:id="textofin" layoutX="147.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jose" wrappingWidth="177.42626953125">
+         <font>
+            <Font name="System Bold Italic" size="42.0" />
+         </font>
+      </Text>
+      <Text layoutX="99.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eres....">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+
+      <Text layoutX="359.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¡RESULTADO!" wrappingWidth="224.62518310546875">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
